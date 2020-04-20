@@ -1,0 +1,79 @@
+/* merriweather-sans-regular - latin-ext_latin */
+@font-face {
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/merriweather-sans-v11-latin-ext_latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Merriweather Sans'), local('MerriweatherSans-Regular'),
+       url('../fonts/merriweather-sans-v11-latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/merriweather-sans-v11-latin-ext_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/merriweather-sans-v11-latin-ext_latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/merriweather-sans-v11-latin-ext_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/merriweather-sans-v11-latin-ext_latin-regular.svg#MerriweatherSans') format('svg'); /* Legacy iOS */
+}
+/* merriweather-sans-700 - latin-ext_latin */
+@font-face {
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/merriweather-sans-v11-latin-ext_latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Merriweather Sans Bold'), local('MerriweatherSans-Bold'),
+       url('../fonts/merriweather-sans-v11-latin-ext_latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/merriweather-sans-v11-latin-ext_latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/merriweather-sans-v11-latin-ext_latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/merriweather-sans-v11-latin-ext_latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/merriweather-sans-v11-latin-ext_latin-700.svg#MerriweatherSans') format('svg'); /* Legacy iOS */
+}
+
+body {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+
+.navbar-scrolled .navbar-brand {
+  color: #212529 !important;
+}
+
+header.masthead {
+  /*background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(255, 255, 255, 0.0) 100%), url(../images/bg-masthead.jpg) !important;*/
+  background: linear-gradient(to bottom, rgba(0, 75, 100, 0.5) 0%, rgba(255, 255, 255, 0.0) 100%), url(../images/bg-masthead.jpg) !important;
+}
+
+.bg-primary {
+  background-color: #00475B !important;
+}
+
+.text-primary {
+  color: #00475B !important;
+}
+
+.btn-primary {
+  background-color: #00475B;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+  background-color: #EA0010;
+  color: #FFFFFF !important;
+}
+
+hr.divider {
+  border-color: #00475B;
+}
+
+a.d-block, a.d-block:hover, a.d-block:focus, a.d-block:active {
+  color: #212529 !important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active {
+  color: #00475B !important;
+}
+
+.d-block a, a:hover {
+  color: #00475B !important;
+  text-decoration: none;
+}
+
+*:hover, *:focus, *:active, .navbar-toggler:focus {
+  outline: none;
+  box-shadow: none !important;
+  -webkit-appearance: none;
+}
